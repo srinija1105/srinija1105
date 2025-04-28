@@ -4,35 +4,25 @@
   <test thread-count="3" parallel="tests" name="ChromeTest(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Seleniumframework.Scenario3">
+      <class name="Seleniumframework.Scenario1">
         <methods>
-          <include name="testFormSubmission"/>
+          <include name="setup"/>
           <include name="setUp"/>
+          <include name="testSimpleFormDemo"/>
         </methods>
-      </class> <!-- Seleniumframework.Scenario3 -->
-      <class name="Seleniumframework.Scenario2">
-        <methods>
-          <include name="setUp"/>
-          <include name="testSliderDragAndDrop"/>
-        </methods>
-      </class> <!-- Seleniumframework.Scenario2 -->
+      </class> <!-- Seleniumframework.Scenario1 -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
-  <test thread-count="3" parallel="tests" name="EdgeTest(failed)">
-    <parameter name="browser" value="edge"/>
+  <test thread-count="3" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="Seleniumframework.Scenario3">
-        <methods>
-          <include name="testFormSubmission"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- Seleniumframework.Scenario3 -->
-      <class name="Seleniumframework.Scenario2">
+      <class name="Seleniumframework.Scenario1">
         <methods>
           <include name="setUp"/>
-          <include name="testSliderDragAndDrop"/>
+          <include name="setup"/>
+          <include name="testSimpleFormDemo"/>
         </methods>
-      </class> <!-- Seleniumframework.Scenario2 -->
+      </class> <!-- Seleniumframework.Scenario1 -->
     </classes>
-  </test> <!-- EdgeTest(failed) -->
+  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [MultiBrowserTestSuite] -->
