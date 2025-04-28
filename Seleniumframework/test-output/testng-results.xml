@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-28T12:32:04 IST" name="MultiBrowserTestSuite" finished-at="2025-04-28T12:32:35 IST" duration-ms="31142">
+  <suite started-at="2025-04-28T12:59:35 IST" name="MultiBrowserTestSuite" finished-at="2025-04-28T13:00:05 IST" duration-ms="29927">
     <groups>
     </groups>
-    <test started-at="2025-04-28T12:32:04 IST" name="ChromeTest" finished-at="2025-04-28T12:32:25 IST" duration-ms="21010">
+    <test started-at="2025-04-28T12:59:35 IST" name="ChromeTest" finished-at="2025-04-28T12:59:55 IST" duration-ms="19508">
       <class name="Seleniumframework.Scenario1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario1@55fe41ea]" started-at="2025-04-28T12:32:04 IST" name="setUp" finished-at="2025-04-28T12:32:05 IST" duration-ms="650" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario1@55fe41ea]" started-at="2025-04-28T12:59:35 IST" name="setUp" finished-at="2025-04-28T12:59:36 IST" duration-ms="687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumframework.Scenario1@55fe41ea]" started-at="2025-04-28T12:32:05 IST" name="setUp" finished-at="2025-04-28T12:32:10 IST" duration-ms="5491" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumframework.Scenario1@55fe41ea]" started-at="2025-04-28T12:59:36 IST" name="setUp" finished-at="2025-04-28T12:59:39 IST" duration-ms="2689" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,17 +22,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSimpleFormDemo()[pri:0, instance:Seleniumframework.Scenario1@55fe41ea]" started-at="2025-04-28T12:32:10 IST" name="testSimpleFormDemo" finished-at="2025-04-28T12:32:12 IST" duration-ms="1588" status="PASS">
+        <test-method signature="testSimpleFormDemo()[pri:0, instance:Seleniumframework.Scenario1@55fe41ea]" started-at="2025-04-28T12:59:39 IST" name="testSimpleFormDemo" finished-at="2025-04-28T12:59:39 IST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSimpleFormDemo -->
       </class> <!-- Seleniumframework.Scenario1 -->
       <class name="Seleniumframework.Scenario3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario3@24aed80c]" started-at="2025-04-28T12:32:17 IST" name="setUp" finished-at="2025-04-28T12:32:17 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario3@24aed80c]" started-at="2025-04-28T12:59:43 IST" name="setUp" finished-at="2025-04-28T12:59:43 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumframework.Scenario3@24aed80c]" started-at="2025-04-28T12:32:17 IST" name="setUp" finished-at="2025-04-28T12:32:20 IST" duration-ms="3067" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumframework.Scenario3@24aed80c]" started-at="2025-04-28T12:59:43 IST" name="setUp" finished-at="2025-04-28T12:59:48 IST" duration-ms="5187" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,17 +43,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFormSubmission()[pri:0, instance:Seleniumframework.Scenario3@24aed80c]" started-at="2025-04-28T12:32:20 IST" name="testFormSubmission" finished-at="2025-04-28T12:32:25 IST" duration-ms="5409" status="PASS">
+        <test-method signature="testFormSubmission()[pri:0, instance:Seleniumframework.Scenario3@24aed80c]" started-at="2025-04-28T12:59:48 IST" name="testFormSubmission" finished-at="2025-04-28T12:59:55 IST" duration-ms="6216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFormSubmission -->
       </class> <!-- Seleniumframework.Scenario3 -->
       <class name="Seleniumframework.Scenario2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario2@2aceadd4]" started-at="2025-04-28T12:32:12 IST" name="setUp" finished-at="2025-04-28T12:32:12 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario2@2aceadd4]" started-at="2025-04-28T12:59:39 IST" name="setUp" finished-at="2025-04-28T12:59:39 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumframework.Scenario2@2aceadd4]" started-at="2025-04-28T12:32:12 IST" name="setUp" finished-at="2025-04-28T12:32:15 IST" duration-ms="3423" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumframework.Scenario2@2aceadd4]" started-at="2025-04-28T12:59:39 IST" name="setUp" finished-at="2025-04-28T12:59:41 IST" duration-ms="2701" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,19 +64,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSliderDragAndDrop()[pri:0, instance:Seleniumframework.Scenario2@2aceadd4]" started-at="2025-04-28T12:32:15 IST" name="testSliderDragAndDrop" finished-at="2025-04-28T12:32:17 IST" duration-ms="1260" status="PASS">
+        <test-method signature="testSliderDragAndDrop()[pri:0, instance:Seleniumframework.Scenario2@2aceadd4]" started-at="2025-04-28T12:59:41 IST" name="testSliderDragAndDrop" finished-at="2025-04-28T12:59:43 IST" duration-ms="1663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSliderDragAndDrop -->
       </class> <!-- Seleniumframework.Scenario2 -->
     </test> <!-- ChromeTest -->
-    <test started-at="2025-04-28T12:32:04 IST" name="FirefoxTest" finished-at="2025-04-28T12:32:35 IST" duration-ms="31142">
+    <test started-at="2025-04-28T12:59:35 IST" name="FirefoxTest" finished-at="2025-04-28T13:00:05 IST" duration-ms="29927">
       <class name="Seleniumframework.Scenario1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario1@5b94b04d]" started-at="2025-04-28T12:32:04 IST" name="setUp" finished-at="2025-04-28T12:32:05 IST" duration-ms="650" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario1@5b94b04d]" started-at="2025-04-28T12:59:35 IST" name="setUp" finished-at="2025-04-28T12:59:36 IST" duration-ms="685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumframework.Scenario1@5b94b04d]" started-at="2025-04-28T12:32:05 IST" name="setUp" finished-at="2025-04-28T12:32:12 IST" duration-ms="7399" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumframework.Scenario1@5b94b04d]" started-at="2025-04-28T12:59:36 IST" name="setUp" finished-at="2025-04-28T12:59:44 IST" duration-ms="7670" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,13 +87,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSimpleFormDemo()[pri:0, instance:Seleniumframework.Scenario1@5b94b04d]" started-at="2025-04-28T12:32:12 IST" name="testSimpleFormDemo" finished-at="2025-04-28T12:32:13 IST" duration-ms="476" status="PASS">
+        <test-method signature="testSimpleFormDemo()[pri:0, instance:Seleniumframework.Scenario1@5b94b04d]" started-at="2025-04-28T12:59:44 IST" name="testSimpleFormDemo" finished-at="2025-04-28T12:59:44 IST" duration-ms="475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSimpleFormDemo -->
       </class> <!-- Seleniumframework.Scenario1 -->
       <class name="Seleniumframework.Scenario3">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumframework.Scenario3@4c39bec8]" started-at="2025-04-28T12:32:25 IST" name="setUp" finished-at="2025-04-28T12:32:31 IST" duration-ms="6304" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario3@4c39bec8]" started-at="2025-04-28T12:59:54 IST" name="setUp" finished-at="2025-04-28T12:59:54 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumframework.Scenario3@4c39bec8]" started-at="2025-04-28T12:59:54 IST" name="setUp" finished-at="2025-04-28T13:00:01 IST" duration-ms="7060" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,21 +108,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario3@4c39bec8]" started-at="2025-04-28T12:32:25 IST" name="setUp" finished-at="2025-04-28T12:32:25 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testFormSubmission()[pri:0, instance:Seleniumframework.Scenario3@4c39bec8]" started-at="2025-04-28T12:32:31 IST" name="testFormSubmission" finished-at="2025-04-28T12:32:35 IST" duration-ms="4049" status="PASS">
+        <test-method signature="testFormSubmission()[pri:0, instance:Seleniumframework.Scenario3@4c39bec8]" started-at="2025-04-28T13:00:01 IST" name="testFormSubmission" finished-at="2025-04-28T13:00:05 IST" duration-ms="3901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFormSubmission -->
       </class> <!-- Seleniumframework.Scenario3 -->
       <class name="Seleniumframework.Scenario2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario2@8c3b9d]" started-at="2025-04-28T12:32:13 IST" name="setUp" finished-at="2025-04-28T12:32:13 IST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario2@8c3b9d]" started-at="2025-04-28T12:59:44 IST" name="setUp" finished-at="2025-04-28T12:59:44 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumframework.Scenario2@8c3b9d]" started-at="2025-04-28T12:32:13 IST" name="setUp" finished-at="2025-04-28T12:32:24 IST" duration-ms="10820" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumframework.Scenario2@8c3b9d]" started-at="2025-04-28T12:59:44 IST" name="setUp" finished-at="2025-04-28T12:59:53 IST" duration-ms="9303" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -129,7 +129,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSliderDragAndDrop()[pri:0, instance:Seleniumframework.Scenario2@8c3b9d]" started-at="2025-04-28T12:32:24 IST" name="testSliderDragAndDrop" finished-at="2025-04-28T12:32:25 IST" duration-ms="1320" status="PASS">
+        <test-method signature="testSliderDragAndDrop()[pri:0, instance:Seleniumframework.Scenario2@8c3b9d]" started-at="2025-04-28T12:59:53 IST" name="testSliderDragAndDrop" finished-at="2025-04-28T12:59:54 IST" duration-ms="731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSliderDragAndDrop -->

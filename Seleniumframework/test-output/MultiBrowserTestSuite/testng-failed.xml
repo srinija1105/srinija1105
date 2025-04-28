@@ -4,25 +4,13 @@
   <test thread-count="3" parallel="tests" name="ChromeTest(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Seleniumframework.Scenario1">
+      <class name="Seleniumframework.Scenario3">
         <methods>
-          <include name="setup"/>
+          <include name="testFormSubmission"/>
           <include name="setUp"/>
-          <include name="testSimpleFormDemo"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- Seleniumframework.Scenario1 -->
+      </class> <!-- Seleniumframework.Scenario3 -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
-  <test thread-count="3" parallel="tests" name="FirefoxTest(failed)">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="Seleniumframework.Scenario1">
-        <methods>
-          <include name="setUp"/>
-          <include name="setup"/>
-          <include name="testSimpleFormDemo"/>
-        </methods>
-      </class> <!-- Seleniumframework.Scenario1 -->
-    </classes>
-  </test> <!-- FirefoxTest(failed) -->
 </suite> <!-- Failed suite [MultiBrowserTestSuite] -->
