@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Seleniumframework.Scenario1">
+      <class name="Seleniumframework.Scenario2">
         <methods>
-          <include name="setup"/>
           <include name="setUp"/>
-          <include name="testSimpleFormDemo"/>
+          <include name="setUp"/>
+          <include name="testSliderDragAndDrop"/>
         </methods>
-      </class> <!-- Seleniumframework.Scenario1 -->
+      </class> <!-- Seleniumframework.Scenario2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

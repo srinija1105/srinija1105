@@ -21,6 +21,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
 import org.testng.annotations.Parameters;
+import org.testng.ITestResult;
 
 public class Scenario1 {
 
@@ -90,6 +91,29 @@ public class Scenario1 {
 			Assert.assertEquals(displayedMessage, searchText, "Displayed message does not match input text");
 			System.out.println("Displayed message with input text: " + displayedMessage);
 		}
+		
+		
+	
+
+		public class BaseTest {
+
+		    protected WebDriver driver;
+
+		    @AfterMethod
+		    public void tearDown(ITestResult result) {
+		        // Log session ID
+		        String sessionId = ((RemoteWebDriver) driver).getSessionId().toString();
+		        System.out.println("🔗 View Test: https://automation.lambdatest.com/logs/?sessionID=" + sessionId);
+
+		        // Mark test as pass/fail on LambdaTest
+		        if (driver != null) {
+		            String status = result.isSuccess() ? "passed" : "failed";
+		            ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("lambda-status=" + status);
+		            driver.quit();
+		        }
+		    }
+		}
+
 
 		/*
 		 * @AfterMethod public void tearDown() { if (driver != null) { driver.quit(); }

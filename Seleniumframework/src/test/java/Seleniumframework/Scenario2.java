@@ -13,6 +13,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -85,6 +86,25 @@ public class Scenario2 {
 		// Assert that the captured value is the expected one after dragging
 		Assert.assertEquals(capture, "95", "Slider value did not change to 95");
 		System.out.println(" Slider Default value 15 changed to " + capture);
+	}
+	
+	public class BaseTest {
+
+	    protected WebDriver driver2;
+
+	    @AfterMethod
+	    public void tearDown(ITestResult result) {
+	        // Log session ID
+	        String sessionId = ((RemoteWebDriver) driver2).getSessionId().toString();
+	        System.out.println("🔗 View Test: https://automation.lambdatest.com/logs/?sessionID=" + sessionId);
+
+	        // Mark test as pass/fail on LambdaTest
+	        if (driver2 != null) {
+	            String status = result.isSuccess() ? "passed" : "failed";
+	            ((org.openqa.selenium.JavascriptExecutor) driver2).executeScript("lambda-status=" + status);
+	            driver2.quit();
+	        }
+	    }
 	}
 
 	// Cleanup method to quit the WebDriver
