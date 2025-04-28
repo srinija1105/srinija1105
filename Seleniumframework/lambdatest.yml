@@ -1,0 +1,34 @@
+name: LambdaTest Automation
+
+on:
+  push:
+    branches:
+      - main  # Adjust to the branch you want to trigger this workflow
+  pull_request:
+    branches:
+      - main  # Adjust to your default branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'  # Change to the version you're using
+        distribution: 'adoptopenjdk'
+
+    - name: Install Dependencies
+      run: |
+        mvn clean install
+
+    - name: Run Tests on LambdaTest
+      run: |
+        mvn test -D suite=single.xml -Dlambdatest.username=${{ secrets.LT_USERNAME }} -Dlambdatest.accessKey=${{ secrets.LT_ACCESS_KEY }}
+      env:
+        LT_USERNAME: ${{ secrets.LT_USERNAME }}
+        LT_ACCESS_KEY: ${{ secrets.LT_ACCESS_KEY }}
