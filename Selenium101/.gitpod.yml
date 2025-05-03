@@ -1,0 +1,32 @@
+image: mcr.microsoft.com/java/jdk:11
+
+tasks:
+  - init: |
+      # Update and install necessary packages and dependencies
+      sudo apt update && sudo apt install -y \
+          wget \
+          unzip \
+          curl \
+          xvfb \
+          google-chrome-stable \
+          firefox-esr \
+          && \
+      # Install ChromeDriver (for Chrome)
+      CHROME_DRIVER_VERSION=$(curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE) && \
+      wget -q "https://chromedriver.storage.googleapis.com/${CHROME_DRIVER_VERSION}/chromedriver_linux64.zip" -O /tmp/chromedriver.zip && \
+      unzip /tmp/chromedriver.zip -d /usr/local/bin/ && \
+      chmod +x /usr/local/bin/chromedriver \
+      && \
+      # Install FirefoxDriver (for Firefox)
+      FIREFOX_DRIVER_VERSION=$(curl -sS https://github.com/mozilla/geckodriver/releases/latest | sed 's/.*\/tag\///') && \
+      wget -q "https://github.com/mozilla/geckodriver/releases/download/v${FIREFOX_DRIVER_VERSION}/geckodriver-v${FIREFOX_DRIVER_VERSION}-linux64.tar.gz" -O /tmp/geckodriver.tar.gz && \
+      tar -xvzf /tmp/geckodriver.tar.gz -C /usr/local/bin/ && \
+      chmod +x /usr/local/bin/geckodriver
+  - command: |
+      # Install project dependencies using Maven
+      mvn clean install
+      # Run the TestNG tests after build
+      mvn test
+  - prebuild: |
+      # Install TestNG as a dependency if it's not already in your `pom.xml`
+      mvn dependency:resolve

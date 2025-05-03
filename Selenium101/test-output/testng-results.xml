@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-03T13:38:43 IST" name="Cross-Browser Selenium Tests" finished-at="2025-05-03T13:39:12 IST" duration-ms="28437">
+  <suite started-at="2025-05-03T15:46:43 IST" name="Cross-Browser Selenium Tests" finished-at="2025-05-03T15:51:31 IST" duration-ms="287356">
     <groups>
     </groups>
-    <test started-at="2025-05-03T13:38:43 IST" name="Chrome Tests" finished-at="2025-05-03T13:39:02 IST" duration-ms="18351">
+    <test started-at="2025-05-03T15:46:43 IST" name="Chrome Tests" finished-at="2025-05-03T15:51:29 IST" duration-ms="285375">
       <class name="Seleniumpkg.Lambdatest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@7f3b84b8]" started-at="2025-05-03T13:38:43 IST" name="setUp" finished-at="2025-05-03T13:38:45 IST" duration-ms="1382" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumpkg.Lambdatest@55182842]" started-at="2025-05-03T15:46:43 IST" name="setUp" finished-at="2025-05-03T15:46:50 IST" duration-ms="6542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@55182842]" started-at="2025-05-03T15:46:50 IST" name="setUp" finished-at="2025-05-03T15:46:51 IST" duration-ms="1673" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,26 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFormSubmission()[pri:0, instance:Seleniumpkg.Lambdatest@7f3b84b8]" started-at="2025-05-03T13:38:45 IST" name="testFormSubmission" finished-at="2025-05-03T13:38:51 IST" duration-ms="6659" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFormSubmission -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@7f3b84b8]" started-at="2025-05-03T13:38:51 IST" name="setUp" finished-at="2025-05-03T13:38:52 IST" duration-ms="939" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testSimpleFormDemo()[pri:0, instance:Seleniumpkg.Lambdatest@7f3b84b8]" started-at="2025-05-03T13:38:52 IST" name="testSimpleFormDemo" finished-at="2025-05-03T13:38:54 IST" duration-ms="1206" status="PASS">
+        <test-method signature="testSimpleFormDemo()[pri:0, instance:Seleniumpkg.Lambdatest@55182842]" started-at="2025-05-03T15:46:51 IST" name="testSimpleFormDemo" finished-at="2025-05-03T15:46:55 IST" duration-ms="3498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSimpleFormDemo -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@7f3b84b8]" started-at="2025-05-03T13:38:54 IST" name="setUp" finished-at="2025-05-03T13:38:55 IST" duration-ms="1044" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumpkg.Lambdatest@55182842]" started-at="2025-05-03T15:46:55 IST" name="setUp" finished-at="2025-05-03T15:49:11 IST" duration-ms="136398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@55182842]" started-at="2025-05-03T15:49:11 IST" name="setUp" finished-at="2025-05-03T15:49:12 IST" duration-ms="803" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,64 +41,121 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSliderDragAndDrop()[pri:0, instance:Seleniumpkg.Lambdatest@7f3b84b8]" started-at="2025-05-03T13:38:55 IST" name="testSliderDragAndDrop" finished-at="2025-05-03T13:39:02 IST" duration-ms="7073" status="PASS">
+        <test-method signature="testSliderDragAndDrop()[pri:0, instance:Seleniumpkg.Lambdatest@55182842]" started-at="2025-05-03T15:49:12 IST" name="testSliderDragAndDrop" finished-at="2025-05-03T15:49:14 IST" duration-ms="2238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSliderDragAndDrop -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumpkg.Lambdatest@55182842]" started-at="2025-05-03T15:49:14 IST" name="setUp" finished-at="2025-05-03T15:51:25 IST" duration-ms="130653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@55182842]" started-at="2025-05-03T15:51:25 IST" name="setUp" finished-at="2025-05-03T15:51:26 IST" duration-ms="849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormSubmission()[pri:0, instance:Seleniumpkg.Lambdatest@55182842]" started-at="2025-05-03T15:51:26 IST" name="testFormSubmission" finished-at="2025-05-03T15:51:29 IST" duration-ms="2678" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b27102d01d18e447f53ee8f2c951ae4, clickElement {id=f.CDB5651EA4FE614AA66A0EE94DE39A0B.d.1C9113D067BBC428BEF61575C3F85C22.e.1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\svvis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53901}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53901/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3b27102d01d18e447f53ee8f2c951ae4)] -> xpath: //a[normalize-space()='Input Form Submit']]
+Session ID: 3b27102d01d18e447f53ee8f2c951ae4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b27102d01d18e447f53ee8f2c951ae4, clickElement {id=f.CDB5651EA4FE614AA66A0EE94DE39A0B.d.1C9113D067BBC428BEF61575C3F85C22.e.1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\svvis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53901}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53901/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (3b27102d01d18e447f53ee8f2c951ae4)] -> xpath: //a[normalize-space()='Input Form Submit']]
+Session ID: 3b27102d01d18e447f53ee8f2c951ae4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at Seleniumpkg.Lambdatest.testFormSubmission(Lambdatest.java:129)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormSubmission -->
       </class> <!-- Seleniumpkg.Lambdatest -->
     </test> <!-- Chrome Tests -->
-    <test started-at="2025-05-03T13:38:43 IST" name="Edge Tests" finished-at="2025-05-03T13:39:09 IST" duration-ms="25559">
+    <test started-at="2025-05-03T15:46:43 IST" name="Firefox Tests" finished-at="2025-05-03T15:51:31 IST" duration-ms="287356">
       <class name="Seleniumpkg.Lambdatest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@7586beff]" started-at="2025-05-03T13:38:43 IST" name="setUp" finished-at="2025-05-03T13:38:46 IST" duration-ms="2950" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumpkg.Lambdatest@2aceadd4]" started-at="2025-05-03T15:46:43 IST" name="setUp" finished-at="2025-05-03T15:46:50 IST" duration-ms="6845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@2aceadd4]" started-at="2025-05-03T15:46:50 IST" name="setUp" finished-at="2025-05-03T15:46:53 IST" duration-ms="2916" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFormSubmission()[pri:0, instance:Seleniumpkg.Lambdatest@7586beff]" started-at="2025-05-03T13:38:46 IST" name="testFormSubmission" finished-at="2025-05-03T13:38:53 IST" duration-ms="6447" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFormSubmission -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@7586beff]" started-at="2025-05-03T13:38:53 IST" name="setUp" finished-at="2025-05-03T13:38:56 IST" duration-ms="3402" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testSimpleFormDemo()[pri:0, instance:Seleniumpkg.Lambdatest@7586beff]" started-at="2025-05-03T13:38:56 IST" name="testSimpleFormDemo" finished-at="2025-05-03T13:39:00 IST" duration-ms="3364" status="PASS">
+        <test-method signature="testSimpleFormDemo()[pri:0, instance:Seleniumpkg.Lambdatest@2aceadd4]" started-at="2025-05-03T15:46:53 IST" name="testSimpleFormDemo" finished-at="2025-05-03T15:46:55 IST" duration-ms="2222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSimpleFormDemo -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@7586beff]" started-at="2025-05-03T13:39:00 IST" name="setUp" finished-at="2025-05-03T13:39:03 IST" duration-ms="3378" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumpkg.Lambdatest@2aceadd4]" started-at="2025-05-03T15:46:55 IST" name="setUp" finished-at="2025-05-03T15:49:01 IST" duration-ms="125351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSliderDragAndDrop()[pri:0, instance:Seleniumpkg.Lambdatest@7586beff]" started-at="2025-05-03T13:39:03 IST" name="testSliderDragAndDrop" finished-at="2025-05-03T13:39:09 IST" duration-ms="5978" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSliderDragAndDrop -->
-      </class> <!-- Seleniumpkg.Lambdatest -->
-    </test> <!-- Edge Tests -->
-    <test started-at="2025-05-03T13:38:43 IST" name="Firefox Tests" finished-at="2025-05-03T13:39:12 IST" duration-ms="28437">
-      <class name="Seleniumpkg.Lambdatest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@1165b38]" started-at="2025-05-03T13:38:43 IST" name="setUp" finished-at="2025-05-03T13:38:48 IST" duration-ms="4409" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@2aceadd4]" started-at="2025-05-03T15:49:01 IST" name="setUp" finished-at="2025-05-03T15:49:03 IST" duration-ms="2541" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,40 +166,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFormSubmission()[pri:0, instance:Seleniumpkg.Lambdatest@1165b38]" started-at="2025-05-03T13:38:48 IST" name="testFormSubmission" finished-at="2025-05-03T13:38:53 IST" duration-ms="5069" status="PASS">
+        <test-method signature="testSliderDragAndDrop()[pri:0, instance:Seleniumpkg.Lambdatest@2aceadd4]" started-at="2025-05-03T15:49:03 IST" name="testSliderDragAndDrop" finished-at="2025-05-03T15:49:09 IST" duration-ms="5888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSliderDragAndDrop -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumpkg.Lambdatest@2aceadd4]" started-at="2025-05-03T15:49:09 IST" name="setUp" finished-at="2025-05-03T15:51:25 IST" duration-ms="135894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@2aceadd4]" started-at="2025-05-03T15:51:25 IST" name="setUp" finished-at="2025-05-03T15:51:28 IST" duration-ms="2858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFormSubmission()[pri:0, instance:Seleniumpkg.Lambdatest@2aceadd4]" started-at="2025-05-03T15:51:28 IST" name="testFormSubmission" finished-at="2025-05-03T15:51:31 IST" duration-ms="2812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFormSubmission -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@1165b38]" started-at="2025-05-03T13:38:53 IST" name="setUp" finished-at="2025-05-03T13:38:57 IST" duration-ms="4506" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testSimpleFormDemo()[pri:0, instance:Seleniumpkg.Lambdatest@1165b38]" started-at="2025-05-03T13:38:57 IST" name="testSimpleFormDemo" finished-at="2025-05-03T13:39:01 IST" duration-ms="3801" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSimpleFormDemo -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumpkg.Lambdatest@1165b38]" started-at="2025-05-03T13:39:01 IST" name="setUp" finished-at="2025-05-03T13:39:07 IST" duration-ms="5820" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testSliderDragAndDrop()[pri:0, instance:Seleniumpkg.Lambdatest@1165b38]" started-at="2025-05-03T13:39:07 IST" name="testSliderDragAndDrop" finished-at="2025-05-03T13:39:12 IST" duration-ms="4791" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSliderDragAndDrop -->
       </class> <!-- Seleniumpkg.Lambdatest -->
     </test> <!-- Firefox Tests -->
   </suite> <!-- Cross-Browser Selenium Tests -->

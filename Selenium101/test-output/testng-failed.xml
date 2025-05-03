@@ -8,19 +8,9 @@
         <methods>
           <include name="testFormSubmission"/>
           <include name="setUp"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- Seleniumpkg.Lambdatest -->
     </classes>
   </test> <!-- Chrome Tests(failed) -->
-  <test thread-count="3" parallel="tests" name="Edge Tests(failed)">
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="Seleniumpkg.Lambdatest">
-        <methods>
-          <include name="setUp"/>
-          <include name="testSliderDragAndDrop"/>
-        </methods>
-      </class> <!-- Seleniumpkg.Lambdatest -->
-    </classes>
-  </test> <!-- Edge Tests(failed) -->
 </suite> <!-- Failed suite [Cross-Browser Selenium Tests] -->

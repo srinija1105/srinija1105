@@ -1,9 +1,13 @@
 package Seleniumpkg;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,17 +18,16 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.ITestResult;
-import org.testng.annotations.*;
-
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 public class Lambdatest {
-/*
+
     private RemoteWebDriver driver;
     private String username = "saisrinija";
     private String accesskey = "LT_BVnYE8P5zdfLtQsgzPsYRnJ16lzB83YsLp8uYTVOFOZrFf5";
@@ -32,7 +35,7 @@ public class Lambdatest {
 
     @BeforeMethod
     public void setUp() throws MalformedURLException {
-    	
+
     	ChromeOptions options = new ChromeOptions();
     	options.setCapability("browserName", "chrome");
 
@@ -50,13 +53,15 @@ public class Lambdatest {
 
         // Log session ID
         System.out.println("Session ID: " + driver.getSessionId());
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30)); 
 
-    
+
+
     }
 
-	*/
 
-	private WebDriver driver;
+
+	//private WebDriver driver;
 
     @Parameters("browser")
     @BeforeMethod
@@ -78,8 +83,9 @@ public class Lambdatest {
     }
 
     @Test
-    public void testSimpleFormDemo() {
+    public void testSimpleFormDemo() throws InterruptedException {
         driver.get("https://www.lambdatest.com/selenium-playground");
+        //Thread.sleep(1000);
         driver.findElement(By.linkText("Simple Form Demo")).click();
         System.out.println("Current URL: " + driver.getCurrentUrl());
         String currentUrl = driver.getCurrentUrl();
@@ -94,11 +100,11 @@ public class Lambdatest {
 
         System.out.println("Displayed message with input text: " + output);
     }
-    
+
     @Test
 	public void testSliderDragAndDrop() throws InterruptedException {
     	 driver.get("https://www.lambdatest.com/selenium-playground");
-    	 Thread.sleep(1000);
+    	 //Thread.sleep(1000);
     	 driver.findElement(By.xpath("//a[normalize-space()='Drag & Drop Sliders']")).click();
     	 Thread.sleep(1000);
 		WebElement slider = driver.findElement(By.xpath("(//div[@id='slider4']|//input[ @type='range'])[3]"));
@@ -114,18 +120,19 @@ public class Lambdatest {
 		Assert.assertEquals(capture, "95", "Slider value did not change to 95");
 		System.out.println(" Slider Default value 15 changed to " + capture);
 	}
-    
+
     @Test
 	public void testFormSubmission() throws InterruptedException {
 		// Verify if the submit button is enabled before filling the form
 		driver.get("https://www.lambdatest.com/selenium-playground");
+		//Thread.sleep(1000);
 		driver.findElement(By.xpath("//a[normalize-space()='Input Form Submit']")).click();
 		boolean value = driver.findElement(By.xpath("//button[@type = 'submit']")).isEnabled();
 		System.out.println("Is Submit button enabled: " + value);
 
 		// Click the Submit button without entering data to trigger validation
 		driver.findElement(By.xpath("//button[text() = 'Submit']")).click();
-		Thread.sleep(1000); // Sleep to let validation message appear
+		//Thread.sleep(1000); // Sleep to let validation message appear
 
 		// JavaScript executor to capture the validation message
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -157,7 +164,7 @@ public class Lambdatest {
 
 		// Click Submit to submit the form
 		driver.findElement(By.xpath("//button[text() = 'Submit']")).click();
-		Thread.sleep(1000); // Wait for the success message to appear
+		//Thread.sleep(1000); // Wait for the success message to appear
 
 		// Verify the success message after form submission
 		WebElement capturedElement = driver.findElement(By.xpath("//p[@class='success-msg hidden']"));
