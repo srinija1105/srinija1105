@@ -27,7 +27,7 @@ public class Scenario1 {
 
 	public String username = "sruthigundabolu";
 	public String accesskey = "LT_Rt6CwJdzCMhPGo3EqE0HeOXvnpGicgUIM72al5vOcR4SXf3";
-	public static RemoteWebDriver driver1 = null;
+	public static RemoteWebDriver driver = null;
 	public String gridURL = "@hub.lambdatest.com/wd/hub";
 	boolean status = false;
 
@@ -41,14 +41,14 @@ public class Scenario1 {
 		capabilities.setCapability("build", "LambdaTestSampleApp");
 		capabilities.setCapability("name", "LambdaTestJavaSample");
 		try {
-			driver1 = new RemoteWebDriver(new URL("https://" + username + ":" + accesskey + gridURL), capabilities);
+			driver = new RemoteWebDriver(new URL("https://" + username + ":" + accesskey + gridURL), capabilities);
 		} catch (MalformedURLException e) {
 			System.out.println("Invalid grid URL");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
 	}
-		WebDriver driver;
+		//WebDriver driver;
 		@Parameters("browser")
 		@BeforeMethod
 		public void setUp(@Optional("chrome") String browser) {

@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-28T17:18:19 IST" name="Default suite" finished-at="2025-04-28T17:18:27 IST" duration-ms="7962">
+  <suite started-at="2025-05-02T21:18:12 IST" name="Default suite" finished-at="2025-05-02T21:18:43 IST" duration-ms="30941">
     <groups>
     </groups>
-    <test started-at="2025-04-28T17:18:19 IST" name="Default test" finished-at="2025-04-28T17:18:27 IST" duration-ms="7962">
-      <class name="Seleniumframework.Scenario2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario2@5656be13]" started-at="2025-04-28T17:18:19 IST" name="setUp" finished-at="2025-04-28T17:18:20 IST" duration-ms="553" status="PASS">
+    <test started-at="2025-05-02T21:18:12 IST" name="Default test" finished-at="2025-05-02T21:18:43 IST" duration-ms="30941">
+      <class name="Seleniumframework.Scenario4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Seleniumframework.Scenario4@15eb5ee5]" started-at="2025-05-02T21:18:12 IST" name="setUp" finished-at="2025-05-02T21:18:41 IST" duration-ms="28854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:Seleniumframework.Scenario2@5656be13]" started-at="2025-04-28T17:18:20 IST" name="setUp" finished-at="2025-04-28T17:18:26 IST" duration-ms="6548" status="PASS">
+        <test-method signature="testSimpleFormDemo()[pri:0, instance:Seleniumframework.Scenario4@15eb5ee5]" started-at="2025-05-02T21:18:41 IST" name="testSimpleFormDemo" finished-at="2025-05-02T21:18:41 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimpleFormDemo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Seleniumframework.Scenario4@15eb5ee5]" started-at="2025-05-02T21:18:41 IST" name="tearDown" finished-at="2025-05-02T21:18:43 IST" duration-ms="1471" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[[TestResult name=testSimpleFormDemo status=SUCCESS method=Scenario4.testSimpleFormDemo()[pri:0, instance:Seleniumframework.Scenario4@15eb5ee5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testSliderDragAndDrop()[pri:0, instance:Seleniumframework.Scenario2@5656be13]" started-at="2025-04-28T17:18:26 IST" name="testSliderDragAndDrop" finished-at="2025-04-28T17:18:27 IST" duration-ms="806" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSliderDragAndDrop -->
-      </class> <!-- Seleniumframework.Scenario2 -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- Seleniumframework.Scenario4 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
